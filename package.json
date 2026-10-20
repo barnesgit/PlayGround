@@ -1,0 +1,12 @@
+{
+  "name": "geokey",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A consent-based, location-secured one-time access link.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "start": "node scripts/serve.mjs",
+    "capture": "node scripts/capture.mjs"
+  }
+}
